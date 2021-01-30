@@ -1,0 +1,36 @@
+    1  php -v
+    2  ls
+    3  cd..
+    4  cd ..
+    5  ls
+    6  git add .
+    7  git commit "added App title"
+    8  git commit -m "added App title"
+    9  git push
+   10  git branch featureA
+   11  git checkout featureA
+   12  git add --all
+   13  git commit -m "created function featureA"
+   14  git push origin featureA
+   15  git branch
+   16  git checkout main
+   17  git checkout featureA
+   18  git branch featureB
+   19  git checkout main
+   20  git checkout featureB
+   21  git add --all
+   22  git commit -m "created file featureB (empty)"
+   23  git checkout main
+   24  git branch -d featureB
+   25  git checkout featureB
+   26  git push origin featureB
+   27  git checkout main
+   28  git branch -D featureB
+   29  git push origin --delete featureB
+   30  git branch
+   31  git log
+   32  git log -p
+   33  git checkout main
+   34  git branch
+   35  git checkout featureA
+   36  history > history.txt
